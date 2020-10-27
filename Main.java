@@ -6,6 +6,18 @@ public class Main {
 	// write your code here
         System.out.println("Hola mundo");
         kata_bowling kata= new kata_bowling();
-        kata.init_kata();
+        kata.roll(10);
+        kata.roll(11);
+        kata.roll(12);
+        kata.roll(10);
+        kata.roll(11);
+        kata.roll(12);
+        kata.roll(10);
+        kata.roll(11);
+        kata.roll(12);
+
+         System.out.println(kata.getScore()
+         );
+
     }
 }
